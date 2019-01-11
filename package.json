@@ -1,6 +1,6 @@
 {
-  "name": "zulip",
-  "productName": "Zulip",
+  "name": "zuliptest",
+  "productName": "Zuliptest",
   "version": "2.4.0",
   "main": "./app/main",
   "description": "Zulip Desktop App",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zulip/zulip-electron.git"
+    "url": "https://github.com/zulip/zulip-electron-test.git"
   },
   "bugs": {
     "url": "https://github.com/zulip/zulip-electron/issues"
@@ -37,7 +37,7 @@
     "test"
   ],
   "build": {
-    "appId": "org.zulip.zulip-electron",
+    "appId": "org.zulip.zulip-electron-test",
     "asar": true,
     "files": [
       "**/*",
