@@ -1,7 +1,7 @@
 {
-  "name": "zuliptest",
-  "productName": "Zuliptest",
-  "version": "2.4.0",
+  "name": "zulipelectron",
+  "productName": "Zulipelectron",
+  "version": "2.3.82",
   "description": "Zulip Desktop App",
   "license": "Apache-2.0",
   "copyright": "Kandra Labs, Inc.",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zulip/zulip-electron-test.git"
+    "url": "https://github.com/akashnimare/zulip-electron-test.git"
   },
   "bugs": {
-    "url": "https://github.com/zulip/zulip-electron-test/issues"
+    "url": "https://github.com/akashnimare/zulip-electron-test/issues"
   },
   "main": "main/index.js",
   "keywords": [

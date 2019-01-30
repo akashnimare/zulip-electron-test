@@ -1,7 +1,7 @@
 {
-  "name": "zuliptest",
-  "productName": "Zuliptest",
-  "version": "2.4.0",
+  "name": "zulipelectron",
+  "productName": "Zulipelectron",
+  "version": "2.3.82",
   "main": "./app/main",
   "description": "Zulip Desktop App",
   "license": "Apache-2.0",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zulip/zulip-electron-test.git"
+    "url": "https://github.com/akashnimare/zulip-electron-test.git"
   },
   "bugs": {
-    "url": "https://github.com/zulip/zulip-electron/issues"
+    "url": "https://github.com/akashnimare/zulip-electron-test/issues"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -37,7 +37,7 @@
     "test"
   ],
   "build": {
-    "appId": "org.zulip.zulip-electron-test",
+    "appId": "org.zulip.zulip-electron",
     "asar": true,
     "files": [
       "**/*",
@@ -106,6 +106,8 @@
       "publisherName": "Kandra Labs, Inc."
     },
     "nsis": {
+      "perMachine": true,
+      "oneClick": false,
       "allowToChangeInstallationDirectory": true
     }
   },
@@ -121,8 +123,8 @@
     "assert": "1.4.1",
     "cp-file": "^5.0.0",
     "devtron": "1.4.0",
-    "electron": "3.0.10",
-    "electron-builder": "20.38.4",
+    "electron": "2.0.9",
+    "electron-builder": "20.28.3",
     "electron-connect": "0.6.2",
     "electron-debug": "1.4.0",
     "google-translate-api": "2.3.0",
@@ -131,7 +133,7 @@
     "is-ci": "^1.0.10",
     "nodemon": "^1.14.11",
     "pre-commit": "1.2.2",
-    "spectron": "^5.0.0",
+    "spectron": "3.8.0",
     "tap-colorize": "^1.2.0",
     "tape": "^4.8.0",
     "xo": "0.18.2"
